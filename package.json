@@ -1,0 +1,20 @@
+{
+  "name": "mini-express",
+  "version": "0.0.1",
+  "description": "mini-express",
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1",
+    "supertest": "^0.10.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha verify -R spec"
+  },
+  "author": "miaoever",
+  "license": "ISC",
+  "dependencies": {
+    "methods": "^0.1.0",
+    "path-to-regexp": "^0.1.2"
+  }
+}
